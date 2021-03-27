@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<!-- CSS-->
+	<link rel="stylesheet" href="calculator-light.css">
+	<link rel="stylesheet" href="calculator-dark.css">
+
+	<!-- Javascript -->
+	<script src="calculator.js"></script>
+
+	<!-- Meta tags -->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width" initial-scale="1.0">
+
+	<title>Calculator</title>
+
+</head>
+
+<body>
+
+		<label class="switch">
+		 <input type="checkbox">
+		 <span class="slider-round"></span>
+	   </label>
+
+
+	<div id="container" align="center">
+
+		<table id="table">
+
+		<tr>
+			<div id="title">ChelCulator</div>
+			<div><input type="text" id="result" disabled></div>
+		</tr>
+
+		<tr>
+
+			<td><input type="button" value="1" class="buttons" onclick="disp('1')"></td>
+			<td><input type="button" value="2" class="buttons" onclick="disp('2')"></td>
+			<td><input type="button" value="3" class="buttons" onclick="disp('3')"></td>
+			<td><input type="button" value="+" class="operators" onclick="disp('+')"></td>
+
+		</tr>
+
+		<tr>
+
+			<td><input type="button" value="4" class="buttons" onclick="disp('4')"></td>
+			<td><input type="button" value="5" class="buttons" onclick="disp('5')"></td>
+			<td><input type="button" value="6" class="buttons" onclick="disp('6')"></td>
+			<td><input type="button" value="-" class="operators" onclick="disp('-')"></td>
+
+		</tr>
+
+		<tr>
+
+			<td><input type="button" value="7" class="buttons" onclick="disp('7')"></td>
+			<td><input type="button" value="8" class="buttons" onclick="disp('8')"></td>
+			<td><input type="button" value="9" class="buttons" onclick="disp('9')"></td>
+			<td><input type="button" value="*" class="operators" onclick="disp('*')"></td>
+
+		</tr>
+
+		<tr>
+
+			<td><input type="button" value="C" class="buttons" id="clear" onclick="cr()"></td>
+			<td><input type="button" value="0" class="buttons" onclick="disp('0')"></td>
+			<td><input type="button" value="=" class="buttons" onclick="solve()"></td>
+			<td><input type="button" value="/" class="operators" onclick="disp('/')"></td>
+
+		</tr>
+
+		</table>
+
+	</div>
+
+</body>
+
+</html>

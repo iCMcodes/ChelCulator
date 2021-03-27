@@ -1,0 +1,97 @@
+body {
+
+    background-color: rgb(116, 195, 241);
+    padding-top: 6%;
+    padding-bottom: 6%;
+
+}
+
+#container{
+
+background-color:rgb(209, 177, 241);
+padding: 20px 50px;
+margin: 0 auto;
+width: 250px;
+border-radius: 5%;
+border: 1px;
+border-style:outset;
+border-color: black;
+box-shadow: 5px 5px 5px 5px rgb(50, 64, 68);
+
+}
+
+#table {
+
+    margin: 0 auto;
+    max-width: fit-content;
+    border-spacing: 4px;
+   
+}
+
+.buttons , .operators {
+
+    border-style: outset;
+    font: bold;
+    background-color:black;
+    font-size: large;
+    color: white;
+    padding: 20px 20px;
+    block-size: 70px;
+    border-radius: 10%;
+    box-shadow: 3px 3px;
+    display: grid;
+    cursor: pointer;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', 'sans-serif';
+    
+}
+
+.buttons:hover {
+
+    background-color:blueviolet;
+}
+
+.buttons:active {
+
+    background-color:rgb(203, 166, 238);
+}
+
+.operators:hover {
+
+    background-color: rgb(43, 221, 245);
+}
+#result {
+
+    background-color: black;
+    max-width: auto;
+    padding: 2px;
+    border-style: outset;
+    border-radius: 5%;
+    box-shadow: 3px 3px;
+    font-size: large;
+    font: bold;
+    color: white;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", "Geneva", "Verdana", "sans-serif";
+
+}
+
+#title {
+
+    font-size: x-large;
+    font: oblique;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", "Geneva", "Verdana", "sans-serif";
+    color: rgb(36, 72, 82);
+    padding-top: 3px;
+    padding-bottom: 3px;
+
+}
+
+#clear {
+
+    background-color:crimson
+}
+
+#clear:hover {
+
+    background-color: rgb(117, 213, 230);
+
+}
